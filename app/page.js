@@ -10,6 +10,17 @@ export default function Home() {
         {/* rest of the area */}
         <section className='flex flex-col w-full'>
           <Navbar />
+
+          <section className='flex flex-row w-full h-full'>
+            <div id='course details'>
+
+            </div>
+
+            <div id='statistic'>
+
+            </div>
+
+          </section>
         </section>
       </div>
   )

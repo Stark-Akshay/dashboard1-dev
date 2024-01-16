@@ -39,7 +39,7 @@ const SideBar = () => {
           <p className='text-md text-grayish mb-5'>FRIENDS</p>
 
           <div className='flex flex-col justify-between gap-5'>
-         <SideBarFriends content="Krishnapriya" status="Friend" />
+         <SideBarFriends content="Krishnapriya" status="Girl Friend" />
          <SideBarFriends content="Clins" status="Old Friend" />
          <SideBarFriends content="Jacob" status="Old Friend" />
           </div>

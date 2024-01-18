@@ -1,10 +1,10 @@
 import React from 'react'
 import { IoMdMore } from "react-icons/io";
 
-const Card = ({Icon, Title, Description,color}) => {
+const Card = ({Icon, Title, Description, textColor, bgColor}) => {
   return (
-    <div className='bg-whitish flex flex-row rounded-full p-2 space-x-5 items-center '>
-        <div className={`flex justify-center items-center text-3xl bg-[${color}] p-5 rounded-full`}>
+    <div className='bg-whitish flex flex-col sm:flex-row rounded-full p-2 space-x-5 items-center '>
+        <div className={`flex justify-center items-center text-3xl ${bgColor} ${textColor} text p-5 rounded-full`}>
             {Icon}
         </div>
 

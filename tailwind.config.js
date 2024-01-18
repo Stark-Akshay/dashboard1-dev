@@ -20,6 +20,12 @@ module.exports = {
       offaccent: '#f5f3ff',
       whitish:'#fafaf9',
       grayish: '#737373',
+      bgviolet:'#c084fc',
+      ttviolet: '#6b21a8',
+      bgpurple:'#e879f9',
+      ttpurple:'#86198f',
+      bgpink:'#f472b6',
+      ttpink:'#9d174d',
     }
   },
   plugins: [],

@@ -11,7 +11,7 @@ import SideBarFriends from './SideBarFriends';
 const SideBar = () => {
   
   return (
-    <div className='flex flex-col items-center bg-whitish w-[20rem] h-[100vh]'>
+    <div className='flex flex-col items-center bg-whitish w-[20rem] h-[100vh] sticky'>
         
         <div className='flex flex-row justify-center items-center mt-5 mb-[5rem] w-full'>
             <GiDeathStar className='text-secondary text-3xl'/>

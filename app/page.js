@@ -3,6 +3,7 @@ import SideBar from './components/SideBar'
 import Navbar from './components/Navbar'
 import Banner from './components/Banner'
 import Cards from './components/Cards'
+import Carousel from './components/Carousel'
 
 export default function Home() {
   return (
@@ -20,7 +21,7 @@ export default function Home() {
               {/* Cards */}
                 <Cards />
               {/* Carousel */}
-
+                <Carousel />
               {/* Lesson  */}
           
 
